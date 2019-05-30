@@ -1,9 +1,54 @@
 
+/* div[class^=col] {
+    height: 100vh;
+} */
 
-/* @media screen and (min-width: 768px) {
-
+.article-title {
+    font-size: 1rem;
+    font-weight: 800;
+    /* margin: 0.15rem; */
 }
 
-@media screen and (min-width: 992px) {
+.main-title {
+    font-size: 1.5rem;
+    font-weight: 800; 
+}
 
-} */
+.more-story {
+    clear: left;
+    padding-top: 1rem;
+}
+
+.more-story img {
+    max-width: 33.33333%;
+    float: left;
+    margin-bottom: 0.15rem;
+    margin-right: 0.5rem;
+}
+
+.featured-story .image-div {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.featured-story .featured-story-section {
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.opinion {
+    clear: left;
+    overflow: auto;
+}
+
+.opinion img {
+    background-color: red;
+    float: left;
+}
+
+.opinion .article-title {
+    margin-left: calc(100px + 0.15rem);
+}
