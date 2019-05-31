@@ -10,6 +10,10 @@
     font-weight: 800; 
 }
 
+.magazine-section > .main-title {
+    color: red;
+}
+
 .more-story {
     padding-top: 1rem;
 }
@@ -59,12 +63,14 @@
     margin-left: calc(100px + 0.15rem);
 }
 
-.latest-story img {
+.latest-story img,
+.other-section-stories img {
     float: left;
     max-width: 33.33333%;
 }
 
-.latest-story .article-title {
+.latest-story .article-title,
+.other-section-stories .article-title {
     margin-left: calc(33.33333% + 0.15rem);
 }
 
@@ -89,3 +95,4 @@
     color: red;
     margin-left: 0.5rem;
 }
+
