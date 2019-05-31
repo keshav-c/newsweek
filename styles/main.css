@@ -96,3 +96,15 @@
     margin-left: 0.5rem;
 }
 
+.logo img{
+    max-height: 2.25rem;
+    /* width: auto; */
+}
+
+.social img {
+    height: 1.875rem;
+}
+
+.copyright {
+    line-height: 0.8;
+}
