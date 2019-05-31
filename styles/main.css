@@ -1,12 +1,8 @@
 
-/* div[class^=col] {
-    height: 100vh;
-} */
 
 .article-title {
     font-size: 1rem;
     font-weight: 800;
-    /* margin: 0.15rem; */
 }
 
 .main-title {
@@ -15,7 +11,6 @@
 }
 
 .more-story {
-    clear: left;
     padding-top: 1rem;
 }
 
@@ -26,22 +21,33 @@
     margin-right: 0.5rem;
 }
 
-.featured-story .image-div {
+.featured-story .image-div,
+.inside-magazine .image-div,
+.editors-pick .image-div,
+.slideshow .image-div {
     position: relative;
     text-align: center;
     color: red;
 }
 
-.featured-story .featured-story-section {
+.featured-story .image-text,
+.inside-magazine .image-text,
+.editors-pick .image-text,
+.slideshow .image-text {
     position: absolute;
     bottom: -0.5rem;
     left: 0;
     background: rgba(255, 255, 255, 0.8);
 }
 
-.opinion {
-    clear: left;
-    overflow: auto;
+.inside-magazine .image-text,
+.editors-pick .image-text,
+.slideshow .image-text {
+    bottom: -1rem;
+}
+
+.slideshow .image-text {
+    padding: 0.5rem;
 }
 
 .opinion img {
@@ -51,4 +57,35 @@
 
 .opinion .article-title {
     margin-left: calc(100px + 0.15rem);
+}
+
+.latest-story img {
+    float: left;
+    max-width: 33.33333%;
+}
+
+.latest-story .article-title {
+    margin-left: calc(33.33333% + 0.15rem);
+}
+
+.magazine-cover .article-title {
+    color: black;
+    font-size: 0.8rem;
+}
+
+.inmag-subtitle {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.inmag-subtitle span:first-child {
+    background-color: red;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+}
+
+.inmag-subtitle span:last-child {
+    color: red;
+    margin-left: 0.5rem;
 }
