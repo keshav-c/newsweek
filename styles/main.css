@@ -1,5 +1,3 @@
-
-
 .article-title {
     font-size: 1rem;
     font-weight: 800;
@@ -8,10 +6,6 @@
 .main-title {
     font-size: 1.5rem;
     font-weight: 800; 
-}
-
-.magazine-section > .main-title {
-    color: red;
 }
 
 .more-story {
@@ -25,29 +19,21 @@
     margin-right: 0.5rem;
 }
 
-.featured-story .image-div,
-.inside-magazine .image-div,
-.editors-pick .image-div,
-.slideshow .image-div {
+.image-div {
     position: relative;
     text-align: center;
     color: red;
 }
 
-.featured-story .image-text,
-.inside-magazine .image-text,
-.editors-pick .image-text,
-.slideshow .image-text {
+.image-text {
     position: absolute;
-    bottom: -0.5rem;
+    bottom: -1rem;
     left: 0;
     background: rgba(255, 255, 255, 0.8);
 }
 
-.inside-magazine .image-text,
-.editors-pick .image-text,
-.slideshow .image-text {
-    bottom: -1rem;
+.featured-story .image-text {
+    bottom: -0.5rem;
 }
 
 .slideshow .image-text {
@@ -81,19 +67,6 @@
 
 .inmag-subtitle {
     font-size: 0.9rem;
-    font-weight: bold;
-}
-
-.inmag-subtitle span:first-child {
-    background-color: red;
-    color: white;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem; 
-}
-
-.inmag-subtitle span:last-child {
-    color: red;
-    margin-left: 0.5rem;
 }
 
 .responsive-nav {
