@@ -96,6 +96,10 @@
     margin-left: 0.5rem;
 }
 
+.responsive-nav {
+    z-index: 2000;
+}
+
 .navbar-brand img.small {
     height: 1.25rem;
 }
