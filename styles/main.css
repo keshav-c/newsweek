@@ -96,6 +96,26 @@
     margin-left: 0.5rem;
 }
 
+.navbar-brand img.small {
+    height: 1.25rem;
+}
+
+.navbar-brand img.large {
+    height: 3.75rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../images/bars-solid.png) !important;
+}
+
+.navbar-nav > li:hover {
+    background-color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
 .logo img{
     max-height: 2.25rem;
     /* width: auto; */
