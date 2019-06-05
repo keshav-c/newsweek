@@ -13,23 +13,23 @@
 }
 
 .more-story img {
-    max-width: 33.33333%;
     float: left;
     margin-bottom: 0.15rem;
     margin-right: 0.5rem;
+    max-width: 33.33333%;
 }
 
 .image-div {
+    color: red;
     position: relative;
     text-align: center;
-    color: red;
 }
 
 .image-text {
-    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
     bottom: -1rem;
     left: 0;
-    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
 }
 
 .featured-story .image-text {
@@ -95,7 +95,6 @@
 
 .logo img{
     max-height: 2.25rem;
-    /* width: auto; */
 }
 
 .social img {
