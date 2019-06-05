@@ -26,6 +26,7 @@
 }
 
 .image-text {
+    background: white;
     background: rgba(255, 255, 255, 0.8);
     bottom: -1rem;
     left: 0;
@@ -73,11 +74,11 @@
     z-index: 2000;
 }
 
-.navbar-brand img.small {
+.navbar-brand .small {
     height: 1.25rem;
 }
 
-.navbar-brand img.large {
+.navbar-brand .large {
     height: 3.75rem;
 }
 
