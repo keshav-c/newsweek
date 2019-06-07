@@ -47,7 +47,7 @@
 }
 
 .opinion .article-title {
-    margin-left: calc(100px + 0.15rem);
+    margin-left: calc(80px + 0.15rem);
 }
 
 .latest-story img,
@@ -59,6 +59,14 @@
 .latest-story .article-title,
 .other-section-stories .article-title {
     margin-left: calc(33.33333% + 0.15rem);
+}
+
+.n {
+    background: red;
+}
+
+.n img {
+    max-width: 29px;
 }
 
 .magazine-cover .article-title {
@@ -82,7 +90,13 @@
     height: 3.75rem;
 }
 
+.navbar > .navbar-nav > .nav-item {
+    line-height: 0.8;
+}
+
 .navbar-toggler-icon {
+    height: 1rem;
+    width: 1rem;
     background-image: url(../images/bars-solid.png) !important;
 }
 
