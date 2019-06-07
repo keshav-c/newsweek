@@ -61,6 +61,14 @@
     margin-left: calc(33.33333% + 0.15rem);
 }
 
+.n {
+    background: red;
+}
+
+.n img {
+    max-width: 29px;
+}
+
 .magazine-cover .article-title {
     color: black;
     font-size: 0.8rem;
