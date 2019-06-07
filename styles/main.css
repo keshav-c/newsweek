@@ -121,6 +121,10 @@
 }
 
 @media screen and (min-width: 992px){
+    .responsive-nav {
+        background: white;
+        background: linear-gradient(red, red 62%, white 62%, white);
+    }
     .responsive-nav form input {
         width: 100% !important;
     }
