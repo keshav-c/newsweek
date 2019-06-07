@@ -95,9 +95,9 @@
 }
 
 .navbar-toggler-icon {
-    height: 1rem;
-    width: 1rem;
     background-image: url(../images/bars-solid.png) !important;
+    height: 1rem;
+    width: 1rem;    
 }
 
 .navbar-nav > li:hover {
