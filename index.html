@@ -8,104 +8,102 @@
         <link rel="stylesheet" href="./styles/main.css">
     </head>
     <body>
-        <nav class="responsive-nav navbar navbar-expand-lg navbar-dark bg-danger flex-wrap pb-lg-0 px-1">
-            <span class="navbar-text text-white d-none d-lg-inline">Current date</span>
-            <a href="#" class="navbar-brand d-lg-none pt-1 pb-1"><img class="small" src="./images/logo-white.png" alt="logo"></a>
-            <a href="#" class="navbar-brand d-none d-lg-inline flex-lg-grow-1 text-center pt-1 pb-1"><img class="large" src="./images/logo-white.png" alt="logo"></a>
-            <div class="navbar-nav flex-row ml-auto mt-1 mt-sm-1">
-                <a class="nav-item nav-link text-white font-weight-bold pr-1 pr-sm-1" href="#">SIGN IN</a>
-                <a class="nav-item nav-link bg-white text-danger font-weight-bold px-1 px-sm-1" href="#">SUBSCRIBE</a>
-            </div>
-            <div class="navbar-nav">
-                <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse w-100" id="navbarNav">
-                <ul class="navbar-nav align-items-stretch bg-white flex-grow-1  border-bottom">
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">India</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">World</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Business</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Tech & Science</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Culture</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Sports</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Health</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Opinion</a>
-                    </li>
-                    <li class="nav-item order-1 flex-lg-grow-1">
-                        <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Ndelible</a>
-                    </li>
-                    <li class="nav-item order-0 order-lg-1 flex-lg-grow-1">
-                        <form class="form-inline" method="GET" action="./search-app">
-                            <input class="ml-auto form-control" type="search" placeholder="&#128269;">
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="navbar navbar-dark bg-danger fixed-top px-1">
-            <a href="#" class="navbar-brand pt-1 pb-1"><img class="small" src="./images/logo-white.png" alt="logo"></a>
-            <div class="navbar-nav flex-row ml-auto mt-1">
-                <a class="nav-item nav-link text-white font-weight-bold pr-1 pr-sm-1" href="#">SIGN IN</a>
-                <a class="nav-item nav-link bg-white text-danger font-weight-bold px-1 px-sm-1" href="#">SUBSCRIBE</a>
-            </div>
-            <div class="navbar-nav">
-                <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarNav-scroll">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav-scroll">
-                <ul class="navbar-nav align-items-stretch bg-white">
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">India</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">World</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Business</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Tech & Science</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Culture</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Sports</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Health</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Opinion</a>
-                    </li>
-                    <li class="nav-item order-1">
-                        <a class="nav-link text-body text-right font-weight-bold" href="#">Ndelible</a>
-                    </li>
-                    <li class="nav-item order-0">
-                        <form class="form-inline" method="GET" action="./search-app">
-                            <input class="ml-auto form-control" type="search" placeholder="&#128269;">
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <header class="container-fluid px-0">
+            <nav class="responsive-nav navbar navbar-expand-lg navbar-dark flex-wrap pb-lg-0 px-1">
+                <span class="navbar-text text-white d-none d-lg-inline">Current date</span>
+                <a href="#" class="navbar-brand d-lg-none pt-1 pb-1"><img class="small" src="./images/logo-white.png" alt="logo"></a>
+                <a href="#" class="navbar-brand d-none d-lg-inline flex-lg-grow-1 text-center pt-1 pb-1"><img class="large" src="./images/logo-white.png" alt="logo"></a>
+                <div class="navbar-nav flex-row ml-auto">
+                    <a class="nav-item nav-link text-white font-weight-bold pr-1 pr-sm-1 mt-1 mt-sm-1" href="#">SIGN IN</a>
+                    <a class="nav-item nav-link bg-white text-danger font-weight-bold px-1 px-sm-1 mt-1 mt-sm-1" href="#">SUBSCRIBE</a>
+                    <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse w-100" id="navbarNav">
+                    <ul class="navbar-nav align-items-stretch bg-white flex-grow-1  border-bottom">
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">India</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">World</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Business</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Tech & Science</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Culture</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Health</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Opinion</a>
+                        </li>
+                        <li class="nav-item order-1 flex-lg-grow-1">
+                            <a class="nav-link text-body text-right text-lg-center font-weight-bold border-right" href="#">Ndelible</a>
+                        </li>
+                        <li class="nav-item order-0 order-lg-1 flex-lg-grow-1">
+                            <form class="form-inline" method="GET" action="./search-app">
+                                <input class="ml-auto form-control" type="search" placeholder="&#128269;">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar scrolling-nav navbar-dark fixed-top px-1">
+                <a href="#" class="navbar-brand pt-1 pb-1"><img class="small" src="./images/logo-white.png" alt="logo"></a>
+                <div class="navbar-nav flex-row ml-auto">
+                    <a class="nav-item nav-link text-white font-weight-bold pr-1 pr-sm-1 mt-1" href="#">SIGN IN</a>
+                    <a class="nav-item nav-link bg-white text-danger font-weight-bold px-1 px-sm-1 mt-1" href="#">SUBSCRIBE</a>
+                    <button class="navbar-toggler px-1" type="button" data-toggle="collapse" data-target="#navbarNav-scroll">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav-scroll">
+                    <ul class="navbar-nav align-items-stretch bg-white">
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">India</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">World</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Business</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Tech & Science</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Culture</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Health</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Opinion</a>
+                        </li>
+                        <li class="nav-item order-1">
+                            <a class="nav-link text-body text-right font-weight-bold" href="#">Ndelible</a>
+                        </li>
+                        <li class="nav-item order-0">
+                            <form class="form-inline" method="GET" action="./search-app">
+                                <input class="ml-auto form-control" type="search" placeholder="&#128269;">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="container bg-white">
             <div class="row">
                 <div class="top-n-more col-xs-12 col-md-6 col-lg-4 order-md-2">
@@ -673,52 +671,50 @@
                 </div>
             </div>
         </div>
-        <div class="container bg-white">
-            <footer class="container-fluid mt-2">
-                <div class="d-md-flex align-items-end pb-2 pt-4 border-top border-bottom">
-                    <div class="logo pr-4 pb-3">
-                        <a href="#"><img src="./images/logo.png" alt="logo"></a>
-                    </div>
-                    <p class="copyright text-muted text-uppercase mb-0 pb-3">&copy; 2019 Bluesweek</p>
-                    <div class="social d-flex ml-auto pb-3">
-                        <img class="pt-0 pb-0 pr-2" src="./images/social-github.svg" alt="github">
-                        <img class="pt-0 pb-0 pr-2" src="./images/social-instagram.svg" alt="IG">
-                        <img class="pt-0 pb-0 pr-2" src="./images/social-linkedin.svg" alt="linkedin">
-                        <img class="pt-0 pb-0 pr-2" src="./images/social-facebook.svg" alt="FB">
-                        <img class="pt-0 pb-0" src="./images/social-twitter.svg" alt="twitter">
+        <footer class="container bg-white mt-0">
+            <div class="d-md-flex align-items-end pb-2 pt-4 border-top border-bottom">
+                <div class="logo pr-4 pb-3">
+                    <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                </div>
+                <p class="copyright text-muted text-uppercase mb-0 pb-3">&copy; 2019 Bluesweek</p>
+                <div class="social d-flex ml-auto pb-3">
+                    <img class="pt-0 pb-0 pr-2" src="./images/social-github.svg" alt="github">
+                    <img class="pt-0 pb-0 pr-2" src="./images/social-instagram.svg" alt="IG">
+                    <img class="pt-0 pb-0 pr-2" src="./images/social-linkedin.svg" alt="linkedin">
+                    <img class="pt-0 pb-0 pr-2" src="./images/social-facebook.svg" alt="FB">
+                    <img class="pt-0 pb-0" src="./images/social-twitter.svg" alt="twitter">
+                </div>
+            </div>
+            <div class="d-lg-flex justify-content-between">
+                <div class="d-flex flex-wrap pt-2 pb-2">
+                    <a href="#"><p class="text-muted mb-0 pr-3">About Us</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Corrections</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Contact Us</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Editorial Guidelines</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Advertise</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Copyright</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Terms & Conditions</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Privacy Policy</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Cookie Policy</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Terms of Sale</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Archive</p></a>
+                    <a href="#"><p class="text-muted mb-0 pr-3">Announcements</p></a>
+                    <a href="#"><p class="text-muted mb-0">Consent preferences</p></a>
+                </div>
+                <div class="d-flex">
+                    <p class="font-weight-bold">Editions:</p>
+                    <div class="d-flex flex-wrap">
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">U.S. Edition</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Middle East</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">&#12400;&#12363;</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">&#2984;&#2952;</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Pakistan</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Polska</p></a>
+                        <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Rom&acirc;nia</p></a>
                     </div>
                 </div>
-                <div class="d-lg-flex justify-content-between">
-                    <div class="d-flex flex-wrap pt-2 pb-2">
-                        <a href="#"><p class="text-muted mb-0 pr-3">About Us</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Corrections</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Contact Us</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Editorial Guidelines</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Advertise</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Copyright</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Terms & Conditions</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Privacy Policy</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Cookie Policy</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Terms of Sale</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Archive</p></a>
-                        <a href="#"><p class="text-muted mb-0 pr-3">Announcements</p></a>
-                        <a href="#"><p class="text-muted mb-0">Consent preferences</p></a>
-                    </div>
-                    <div class="d-flex">
-                        <p class="font-weight-bold">Editions:</p>
-                        <div class="d-flex flex-wrap">
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">U.S. Edition</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Middle East</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">&#12400;&#12363;</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">&#2984;&#2952;</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Pakistan</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Polska</p></a>
-                            <a href="#"><p class="text-muted mb-0 pr-2 pl-2">Rom&acirc;nia</p></a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
