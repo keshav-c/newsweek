@@ -133,3 +133,7 @@ body {
         width: 100% !important;
     }
 }
+
+.scrolling-nav {
+    background: red;
+}
