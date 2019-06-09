@@ -132,6 +132,14 @@ body {
     .responsive-nav form input {
         width: 100% !important;
     }
+
+    .navbar-nav > li:hover {
+        background-color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: red !important;
+    }
 }
 
 .scrolling-nav {
